@@ -1,11 +1,11 @@
 const myExpress = require('express');
-const ScraperExamples = require('./src/ScraperExamples');
+const Scrapers = require('./src/Scrapers');
 
-let example = new ScraperExamples();
+const Scrapers = new Scrapers();
 
 const appServer = myExpress();
 const PORT = 3000;
 appServer.listen(PORT, () => {
     //setInterval(async()=>{}, 60000);
-    
+    //user Scrapers object here
 })
