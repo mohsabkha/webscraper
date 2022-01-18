@@ -15,5 +15,10 @@ The basicScraper takes 4 arguments:
 
 ```
 const createdScraper = new Scrapers();
-newScraper.basicScraper(url: String, elements: String or [String], attributesObject: {}, text: String); // returns as array of all matched html elements
+newScraper.basicScraper(
+  url: String, 
+  elements: String or [String],
+  attributesObject: {}, 
+  text: String
+); // returns as array of all matched html elements
 ```
